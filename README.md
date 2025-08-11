@@ -4,6 +4,8 @@
 **GitHub:** [https://github.com/JSLEE-0703/Seq2seq-Translator](https://github.com/JSLEE-0703/Seq2seq-Translator)
 
 English-to-Chinese neural machine translation with attention implemented in PyTorch. Uses jieba for Chinese word segmentation.
+## Note
+cleaner.py is used to remove irregular characters from datasets. For example, some datasets may contain contributor information in each line, which can be cleaned using cleaner.py.
 
 ## Install
 pip install torch torchvision jieba matplotlib
